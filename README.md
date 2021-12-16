@@ -1,2 +1,3 @@
-# aspnet-lightapi
-Low-code ASP.NET REST API
+# ASP.NET light API
+
+Low-code ASP.NET REST API.
