@@ -4,10 +4,9 @@ using RabbidsIncubator.LightApi.Domain.Models;
 
 namespace RabbidsIncubator.LightApi.Domain.Repositories
 {
-    public interface IDeviceRepository
+    public interface IDeviceRepository<T> : ICrudRepository<T>
     {
-        Task<DeviceModel> FindOneAsync(string macAddress);
-
-        Task<List<DeviceModel>> FindAllAsync();
+        new Task<DeviceModel> FindOneAsync(string macAddress);
+        new Task<List<DeviceModel>> FindAllAsync();
     }
 }

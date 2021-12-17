@@ -1,6 +1,6 @@
 ﻿namespace RabbidsIncubator.LightApi.Domain.Models
 {
-    public class VirtualLanModel
+    public class VirtualLanModel : IModel
     {
         public string Id { get; set; }
 

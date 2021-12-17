@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace RabbidsIncubator.LightApi.Infrastructure.MongoDb.Entities
 {
-    public class VirtualLan
+    public class VirtualLan : IEntity
     {
         [BsonId]
         public ObjectId Id { get; set; }

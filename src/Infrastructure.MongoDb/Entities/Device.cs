@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace RabbidsIncubator.LightApi.Infrastructure.MongoDb.Entities
 {
-    internal class Device
+    internal class Device : IEntity
     {
         [BsonId]
         public ObjectId Id { get; set; }

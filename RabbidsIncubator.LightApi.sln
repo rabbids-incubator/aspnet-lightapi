@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - S
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 		.gitlab-ci.yml = .gitlab-ci.yml
+		Directory.Build.props = Directory.Build.props
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -20,6 +21,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{B71B6584-816C-4FBF-907F-1958B62EF71A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.MongoDb", "src\Infrastructure.MongoDb\Infrastructure.MongoDb.csproj", "{48DB4268-F367-4A8E-8757-AA2C5DBA0740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{09D7860A-1F07-44FD-A956-61C3FF1A3AF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +42,10 @@ Global
 		{48DB4268-F367-4A8E-8757-AA2C5DBA0740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48DB4268-F367-4A8E-8757-AA2C5DBA0740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48DB4268-F367-4A8E-8757-AA2C5DBA0740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D7860A-1F07-44FD-A956-61C3FF1A3AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D7860A-1F07-44FD-A956-61C3FF1A3AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D7860A-1F07-44FD-A956-61C3FF1A3AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D7860A-1F07-44FD-A956-61C3FF1A3AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +54,7 @@ Global
 		{1321CAE8-1DCE-4CAD-B0D4-7314D1346DEE} = {991FFD99-CC3B-43EF-8BC6-AF094F997CAF}
 		{B71B6584-816C-4FBF-907F-1958B62EF71A} = {D0BB3801-185D-48A5-A2B6-4D2564BAA606}
 		{48DB4268-F367-4A8E-8757-AA2C5DBA0740} = {D0BB3801-185D-48A5-A2B6-4D2564BAA606}
+		{09D7860A-1F07-44FD-A956-61C3FF1A3AF3} = {D0BB3801-185D-48A5-A2B6-4D2564BAA606}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5257BEC6-1AD5-4443-B97C-24E7F1F30CBA}
